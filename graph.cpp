@@ -62,9 +62,8 @@ class MatrixGraph
 int main(){
     ListGraph graph;
     graph.AddEdge(1,2);
-    graph.AddEdge(3,4);
+    //graph.AddEdge(3,4);
     graph.AddEdge(5,6);
-    graph.AddEdge(1,6);
     ListGraph b(graph);
     graph.AddEdge(7,6);
     std::cout << b.VerticesCount() << std::endl;
